@@ -1,0 +1,115 @@
+/* CompOffReport.css */
+
+/* Required Information Box */
+.report-info-container {
+  background-color: #F9FAFB;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(16,30,115,0.04);
+}
+
+/* Approval List Title */
+.report-approval-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+/* Approval Table Container */
+.report-table-container {
+  border: 1px solid #E5E7EB;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(16,30,115,0.04);
+}
+
+/* Table Header */
+.report-table-header {
+  display: flex;
+  background-color: #F1F6FB;
+  padding: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #111827;
+}
+
+/* Table Column */
+.report-table-column {
+  flex: 1;
+}
+
+.report-table-column-wide {
+  flex: 2;
+}
+
+.report-table-column-remarks {
+  flex: 1.2;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* Table Row */
+.report-table-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #E5E7EB;
+  padding: 8px;
+}
+
+/* Table Cell */
+.report-table-cell {
+  flex: 1;
+  font-size: 14px;
+  color: #111827;
+}
+
+.report-table-cell-wide {
+  flex: 2;
+  font-size: 14px;
+  color: #111827;
+}
+
+.report-table-cell-remarks {
+  flex: 1.2;
+  font-size: 14px;
+  color: #111827;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* Empty Table Message */
+.report-table-empty {
+  flex: 1;
+  font-size: 14px;
+  color: #111827;
+  text-align: center;
+}
+
+/* Status Text */
+.report-status-text {
+  font-size: 14px;
+  color: #111827;
+}
+
+/* Comment Section */
+.report-comment-title {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.report-comment-input {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9.6px;
+  padding-bottom: 9.6px;
+  font-size: 15px;
+}

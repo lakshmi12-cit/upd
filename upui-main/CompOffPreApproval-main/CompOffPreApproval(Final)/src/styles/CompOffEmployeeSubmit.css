@@ -1,0 +1,153 @@
+.compoff-container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  background: #f9fbfd;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.04);
+  padding: 0 0 32px 0;
+}
+
+.compoff-header {
+  padding: 24px 32px 0 32px; /* less top padding than NDA */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.compoff-breadcrumb-row {
+  margin-bottom: 6px;
+}
+
+.compoff-breadcrumb {
+  color: #374151; /* slightly darker */
+  font-size: 14px;
+}
+
+.compoff-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.compoff-back-icon {
+  color: #222;
+  font-size: 22px !important;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.compoff-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.compoff-header-type {
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.compoff-userinfo-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin-top: 0;
+}
+
+.compoff-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e5e7eb;
+}
+
+.compoff-userinfo-main {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  margin-right: 16px;
+}
+
+.compoff-userinfo-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #111827;
+  margin-bottom: 2px;
+}
+
+.compoff-userinfo-dot {
+  color: #6b7280;
+  margin: 0 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.compoff-userinfo-id {
+  color: #374151;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.compoff-userinfo-email {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.compoff-userinfo-meta {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.compoff-userinfo-meta-block {
+  min-width: 160px;
+}
+
+.compoff-userinfo-meta-block:nth-child(2) {
+  min-width: 200px; /* Division field larger */
+}
+
+.compoff-userinfo-meta-label {
+  font-size: 13px;
+  color: #6b7280;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.compoff-userinfo-meta-value {
+  font-size: 15px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.compoff-userinfo-meta-divider {
+  width: 1px;
+  height: 36px;
+  background: #e5e7eb;
+  margin: 0 20px;
+  align-self: center;
+}
+
+.compoff-timer-icon {
+  position: absolute;
+  right: 15px;
+  top: 24px;
+  width: 30px !important;
+  height: 30px !important;
+  color: #2ec4f1;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(44, 62, 80, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  z-index: 2;
+}

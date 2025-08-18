@@ -1,0 +1,15 @@
+.required-info-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.required-info-icon-container {
+  margin-right: 8px;
+}
+
+.required-info-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #111827;
+}

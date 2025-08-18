@@ -1,0 +1,221 @@
+/* CompOffManagerApprove.css */
+
+/* Required Information Box */
+.manager-info-container {
+  background-color: #F9FAFB;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 2px rgba(16,30,115,0.04);
+}
+
+/* Approval List Title */
+.manager-approval-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+/* Approval Table Container */
+.manager-table-container {
+  border: 1px solid #E5E7EB;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(16,30,115,0.04);
+}
+
+/* Table Header */
+.manager-table-header {
+  display: flex;
+  background-color: #F1F6FB;
+  padding: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #111827;
+}
+
+/* Table Column */
+.manager-table-column {
+  flex: 1;
+}
+
+.manager-table-column-wide {
+  flex: 2;
+}
+
+/* Table Row */
+.manager-table-row {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #E5E7EB;
+  padding: 8px;
+}
+
+/* Table Cell */
+.manager-table-cell {
+  flex: 1;
+  font-size: 14px;
+  color: #111827;
+}
+
+.manager-table-cell-wide {
+  flex: 2;
+  font-size: 14px;
+  color: #111827;
+}
+
+/* Empty Table Message */
+.manager-table-empty {
+  flex: 1;
+  font-size: 14px;
+  color: #111827;
+  text-align: center;
+}
+
+/* Remarks TextField */
+.manager-remarks-container {
+  flex: 1;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.manager-remarks-field .MuiOutlinedInput-root {
+  font-size: 15px;
+  color: #111827;
+}
+
+.manager-remarks-field .MuiOutlinedInput-root fieldset {
+  border-color: #E5E7EB;
+  border-width: 1px;
+}
+
+.manager-remarks-field .MuiOutlinedInput-root:hover fieldset {
+  border-color: #D1D5DB;
+}
+
+.manager-remarks-field .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #6B7280;
+}
+
+/* Comment Section */
+.manager-comment-title {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.manager-comment-input {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9.6px;
+  padding-bottom: 9.6px;
+  font-size: 15px;
+}
+
+/* Action Buttons Container */
+.manager-action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+/* Reject Button */
+.manager-reject-button {
+  background-color: #FFFFFF;
+  color: #36B1E6;
+  border-radius: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: none;
+  box-shadow: none;
+  border-color: #3B82F6;
+}
+
+.manager-reject-button:hover {
+  background-color: #F3F4F6;
+}
+
+/* Approve Button */
+.manager-approve-button {
+  background-color: #36B1E6;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: none;
+  box-shadow: none;
+}
+
+.manager-approve-button:hover {
+  background-color: #1D4ED8;
+}
+
+/* Transfer Workflow Row */
+.manager-transfer-workflow {
+  margin-top: 16px;
+  margin-bottom: 80px;
+  background-color: #F8FAFC;
+  border-radius: 0;
+  height: 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-shadow: none;
+  border: 1px solid #E2E8F0;
+}
+
+.manager-transfer-workflow:hover {
+  background-color: #F1F5F9;
+}
+
+.manager-transfer-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.manager-transfer-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.manager-transfer-text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1E293B;
+  letter-spacing: 0;
+  font-family: inherit;
+}
+
+.manager-transfer-right {
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+/* Arrow Forward Icon */
+.manager-arrow-icon {
+  margin-right: 12px;
+  height: 28px;
+}

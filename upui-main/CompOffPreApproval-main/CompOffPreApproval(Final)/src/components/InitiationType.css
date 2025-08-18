@@ -1,0 +1,43 @@
+.initiation-type-container {
+  margin-bottom: 32px;
+}
+
+.initiation-type-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.initiation-type-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #111827;
+}
+
+.initiation-type-options {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.initiation-type-radio {
+  accent-color: #2563EB;
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}
+
+.initiation-type-label {
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 18px;
+}
+
+.initiation-type-label-active {
+  color: #111827;
+}
+
+.initiation-type-label-inactive {
+  color: #6B7280;
+}
