@@ -1,8 +1,8 @@
 .comp-off-submit-container {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 24px;
+  gap: 1.5rem; /* responsive gap */
+  padding: 1.5rem;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -10,39 +10,43 @@
 
 .date-reason-container {
   display: flex;
+  flex-wrap: wrap; /* ✅ allows wrapping on small screens */
   align-items: flex-start;
-  gap: 16px;
-  margin-top: 16px;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .date-picker-container {
-  width: 200px;
+  flex: 0 0 200px; /* ✅ keeps approx width */
+  max-width: 100%; /* ✅ doesn’t break when zoomed */
 }
 
 .reason-input-container {
   flex: 1;
+  min-width: 220px; /* ✅ ensures it doesn’t shrink too small */
 }
 
 .reason-input {
   width: 100%;
-  padding: 8px 12px;
+  padding: 0.5rem 0.75rem;
   border: 1px solid #e5e7eb;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 0.9rem; /* ✅ scales better */
 }
 
 .requests-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin-top: 16px;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .request-item {
   display: flex;
+  flex-wrap: wrap; /* ✅ responsive */
   align-items: center;
   justify-content: space-between;
-  padding: 12px 16px;
+  padding: 0.75rem 1rem;
   background-color: #f9fafb;
   border-radius: 4px;
 }
@@ -50,7 +54,8 @@
 .request-info {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
+  flex-wrap: wrap; /* ✅ prevents overflow */
 }
 
 .request-date {
@@ -64,5 +69,5 @@
 
 .submit-button {
   align-self: flex-end;
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
